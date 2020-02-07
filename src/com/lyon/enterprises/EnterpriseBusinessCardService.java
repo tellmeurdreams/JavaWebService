@@ -78,7 +78,7 @@ public class EnterpriseBusinessCardService {
 			}
 		}
 				
-		String result = "@Produces(\"application/json\") Output: \n\nF to C Converter Output: \n\n" + businessCardsResult.toString();
+		String result = "@Produces(\"application/json\") searchbyname Output: \n\n Output: \n\n" + businessCardsResult.toString();
 		return Response.status(200).entity(result).build();
 	}
 	
