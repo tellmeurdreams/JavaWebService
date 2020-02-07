@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "160aebb5-5d83-456f-a49e-addd7caef009",
+		"name": "test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getbyid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/LYONFuture/enterprises/businesscard/getbyid/9956:0650807444",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"LYONFuture",
+						"enterprises",
+						"businesscard",
+						"getbyid",
+						"9956:0650807444"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "searchByName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/LYONFuture/enterprises/businesscard/searchbyname/DE",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"LYONFuture",
+						"enterprises",
+						"businesscard",
+						"searchbyname",
+						"DE"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getByName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/LYONFuture/enterprises/businesscard/getbyname/VERWARMSLIMMER.BE",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"LYONFuture",
+						"enterprises",
+						"businesscard",
+						"getbyname",
+						"VERWARMSLIMMER.BE"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
